@@ -1,9 +1,9 @@
 baseURL = "https://example.com/"
-languageCode = "en-us"
+languageCode = "pt-br"
 theme = "stack"
-title = "My Portfolio"
+title = "Mariana Gostosona"
 copyright = "Your Name"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "pt"
 hasCJKLanguage = false
 
 [pagination]
@@ -29,7 +29,7 @@ favicon = "/favicon.ico"
 
   [params.sidebar]
   emoji = "👨‍💻"
-  subtitle = "A brief description of your portfolio."
+  subtitle = "A melhor psicóloga do mundo"
     [params.sidebar.avatar]
     enabled = true
     local = true
@@ -75,8 +75,8 @@ favicon = "/favicon.ico"
   src = ""
 
   [params.colorScheme]
-  toggle = true
-  default = "auto"
+  toggle = false
+  default = "light"
 
 [menu]
   [[menu.main]]
@@ -86,12 +86,12 @@ favicon = "/favicon.ico"
     weight = -100
 
   [[menu.social]]
-  identifier = "github"
-  name = "GitHub"
-  url = "https://github.com/your-username" # Change this
+  identifier = "instagram"
+  name = "Instagram"
+  url = "https://www.instagram.com/mari.psicologa/"
   weight = 1
     [menu.social.params]
-    icon = "brand-github"
+    icon = "instagram"
 
 [markup]
   [markup.goldmark.renderer]

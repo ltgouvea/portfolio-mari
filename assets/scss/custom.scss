@@ -1,0 +1,36 @@
+// assets/scss/custom.scss
+
+// This file overrides the default theme variables to create a
+// custom pastel orange light theme.
+
+:root {
+    // A very light, almost white orange for the page background
+    --body-background: #FFF8F0;
+
+    // A pleasant pastel orange for main interactive elements
+    --accent-color: #FFB347;
+
+    // A slightly darker orange for hover states
+    --accent-color-darker: #FF9F1C;
+
+    // White text provides good contrast on the accent color
+    --accent-color-text: #FFFFFF;
+
+    // A dark brown for body text for readability
+    --body-text-color: #5C4033;
+
+    // Keep cards white for a clean, layered look
+    --card-background: #FFFFFF;
+
+    // Darker brown for main text on cards
+    --card-text-color-main: #4A2C2A;
+
+    // Lighter brown for secondary text on cards
+    --card-text-color-secondary: #8A6653;
+}
+
+// Increase the size of the social media icons in the sidebar
+.menu-social svg {
+    width: 48px;
+    height: 48px;
+}
