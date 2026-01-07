@@ -1,0 +1,104 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+theme = "stack"
+title = "My Portfolio"
+copyright = "Your Name"
+DefaultContentLanguage = "en"
+hasCJKLanguage = false
+
+[pagination]
+pagerSize = 5
+
+[permalinks]
+post = "/p/:slug/"
+page = "/:slug/"
+
+[params]
+mainSections = ["post"]
+featuredImageField = "image"
+rssFullContent = true
+favicon = "/favicon.ico"
+
+  [params.footer]
+  since = 2024
+  customText = "Built with Hugo and the Stack theme."
+
+  [params.dateFormat]
+  published = "Jan 02, 2006"
+  lastUpdated = "Jan 02, 2006 15:04 MST"
+
+  [params.sidebar]
+  emoji = "👨‍💻"
+  subtitle = "A brief description of your portfolio."
+    [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.png"
+
+  [params.article]
+  math = false
+  toc = true
+  readingTime = true
+    [params.article.license]
+    enabled = true
+    default = "Licensed under CC BY-NC-SA 4.0"
+
+  [params.comments]
+  enabled = false # Disabled by default
+  provider = "disqus" # Needs to be configured
+
+  [params.widgets]
+    [[params.widgets.homepage]]
+    type = "search"
+    [[params.widgets.homepage]]
+    type = "archives"
+      [params.widgets.homepage.params]
+      limit = 5
+    [[params.widgets.homepage]]
+    type = "categories"
+      [params.widgets.homepage.params]
+      limit = 10
+    [[params.widgets.homepage]]
+    type = "tag-cloud"
+      [params.widgets.homepage.params]
+      limit = 10
+    
+    [[params.widgets.page]]
+    type = "toc"
+
+  [params.opengraph.twitter]
+  card = "summary_large_image"
+
+  [params.defaultImage.opengraph]
+  enabled = false
+  local = false
+  src = ""
+
+  [params.colorScheme]
+  toggle = true
+  default = "auto"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -100
+
+  [[menu.social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/your-username" # Change this
+  weight = 1
+    [menu.social.params]
+    icon = "brand-github"
+
+[markup]
+  [markup.goldmark.renderer]
+  unsafe = true
+  [markup.tableOfContents]
+  endLevel = 4
+  ordered = false
+  startLevel = 2
+  [markup.highlight]
+  noClasses = false

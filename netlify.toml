@@ -1,0 +1,26 @@
+# Netlify configuration file
+[build]
+  # Directory to deploy
+  publish = "public"
+  # Build command
+  command = "hugo --gc --minify"
+
+[build.environment]
+  # Specify the Hugo version to use
+  HUGO_VERSION = "0.115.1"
+  HUGO_ENABLE_GIT_INFO = "true"
+
+# Redirect rule for Decap CMS
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+
+# The following headers are required for Netlify Identity to work with Decap CMS
+[[headers]]
+  for = "/.netlify/identity/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+[[headers]]
+  for = "/.netlify/git/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
