@@ -1,13 +1,11 @@
-# This is a temporary config for local testing.
-# The original is backed up at config.yml.bak
-
-local_backend: true # This enables the local file system backend.
-
 backend:
-  name: test-repo # Uses a proxy server to interact with the local git repo
+  name: github
+  repo: ltgouvea/portfolio-mari # The path to your repository on GitHub
+  branch: main # The branch to publish to
+  site_domain: maripsi.netlify.app
 
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "static/uploads" # Media files will be stored in the repo under static/uploads
+public_folder: "/uploads" # The src attribute for uploaded media will begin with /uploads
 
 collections:
   - name: "post"

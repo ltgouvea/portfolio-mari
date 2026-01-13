@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://maripsi.netlify.app/"
 languageCode = "pt-br"
 theme = "stack"
 title = "Mariana Gostosona"
