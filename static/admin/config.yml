@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: ltgouvea/portfolio-mari # The path to your repository on GitHub
-  branch: main # The branch to publish to
+  branch: master # The branch to publish to
   site_domain: maripsi.netlify.app
 
 media_folder: "static/uploads" # Media files will be stored in the repo under static/uploads
