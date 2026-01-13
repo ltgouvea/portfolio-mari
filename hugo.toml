@@ -2,7 +2,7 @@ baseURL = "https://maripsi.netlify.app/"
 languageCode = "pt-br"
 theme = "stack"
 title = "Mariana Gostosona"
-copyright = "Your Name"
+copyright = "ltgouvea"
 DefaultContentLanguage = "pt"
 hasCJKLanguage = false
 
