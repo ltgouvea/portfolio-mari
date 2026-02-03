@@ -15,5 +15,5 @@ categories:
 
 Se você sente que este pode ser um bom momento para iniciar a psicoterapia, estou à disposição para conversar.
 
-<a href="https://wa.me/5511999999999" class="button" target="_blank">WhatsApp</a>
-<a href="mailto:email@example.com" class="button" target="_blank">E-mail</a>
+<a href="https://wa.me/5514996079406" class="button" target="_blank">WhatsApp</a>
+<a href="mailto:psimarianaf.oliveira@gmail.com" class="button" target="_blank">E-mail</a>
