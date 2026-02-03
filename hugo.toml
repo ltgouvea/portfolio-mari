@@ -1,7 +1,7 @@
 baseURL = "https://maripsi.netlify.app/"
 languageCode = "pt-br"
 theme = "stack"
-title = "Mariana Gostosona"
+title = "Mariana F. de Oliveira"
 copyright = "ltgouvea"
 DefaultContentLanguage = "pt"
 hasCJKLanguage = false
@@ -29,7 +29,7 @@ favicon = "/favicon.ico"
 
   [params.sidebar]
   emoji = "🧠"
-  subtitle = "A melhor psicóloga do mundo"
+  subtitle = "Psicóloga Clínica | Terapia Cognitivo-Comportamental"
     [params.sidebar.avatar]
     enabled = true
     local = true
@@ -48,21 +48,6 @@ favicon = "/favicon.ico"
   provider = "disqus" # Needs to be configured
 
   [params.widgets]
-    [[params.widgets.homepage]]
-    type = "search"
-    [[params.widgets.homepage]]
-    type = "archives"
-      [params.widgets.homepage.params]
-      limit = 5
-    [[params.widgets.homepage]]
-    type = "categories"
-      [params.widgets.homepage.params]
-      limit = 10
-    [[params.widgets.homepage]]
-    type = "tag-cloud"
-      [params.widgets.homepage.params]
-      limit = 10
-    
     [[params.widgets.page]]
     type = "toc"
 
@@ -78,13 +63,6 @@ favicon = "/favicon.ico"
   toggle = false
   default = "light"
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = -100
-
   [[menu.social]]
   identifier = "instagram"
   name = "Instagram"
@@ -92,6 +70,22 @@ favicon = "/favicon.ico"
   weight = 1
     [menu.social.params]
     icon = "instagram"
+
+  [[menu.social]]
+  identifier = "whatsapp"
+  name = "WhatsApp"
+  url = "https://wa.me/5511999999999"
+  weight = 2
+    [menu.social.params]
+    icon = "whatsapp"
+
+  [[menu.social]]
+  identifier = "email"
+  name = "Email"
+  url = "mailto:email@example.com"
+  weight = 3
+    [menu.social.params]
+    icon = "mail"
 
 [markup]
   [markup.goldmark.renderer]
