@@ -38,7 +38,7 @@ favicon = "/favicon.ico"
   [params.article]
   math = false
   toc = true
-  readingTime = true
+  readingTime = false
     [params.article.license]
     enabled = true
     default = "Licensed under CC BY-NC-SA 4.0"
