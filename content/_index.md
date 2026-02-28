@@ -1,4 +1,7 @@
 ---
+title: "Quem sou eu"
+description: "Saiba mais sobre Mariana F. de Oliveira, Psicóloga Clínica especialista em TCC, e como funciona o processo terapêutico."
+keywords: ["Mariana Oliveira", "Psicóloga", "TCC", "Terapia Cognitivo-Comportamental", "Psicoterapia Online"]
 menu:
     main:
         name: Quem sou eu

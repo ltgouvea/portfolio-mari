@@ -1,5 +1,7 @@
 ---
 title: "Perguntas Frequentes"
+description: "Dúvidas comuns sobre como funciona a psicoterapia online e o processo terapêutico com Mariana F. de Oliveira."
+keywords: ["FAQ Psicoterapia", "Terapia Online Funciona", "Como começar terapia"]
 menu:
   main:
     name: "Perguntas Frequentes"

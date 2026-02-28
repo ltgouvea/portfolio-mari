@@ -3,6 +3,7 @@ title: "O que é TCC? Entendendo a Terapia Cognitivo-Comportamental"
 date: 2025-08-10T10:00:00-03:00
 description: "Uma explicação detalhada sobre a abordagem da TCC, suas metodologias e como ela auxilia no processo terapêutico."
 image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=1000"
+keywords: ["O que é TCC", "Terapia Cognitivo Comportamental", "Metodologia TCC", "Aaron Beck", "Psicologia Cognitiva"]
 hidden: true
 categories:
     - Psicologia
