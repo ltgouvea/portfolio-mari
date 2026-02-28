@@ -1,0 +1,129 @@
+/* static/css/custom.css */
+
+/* This file overrides the default theme variables to create a
+   custom pastel orange light theme. */
+
+:root {
+    /* A very light, almost white orange for the page background */
+    --body-background: #FFF8F0;
+
+    /* A pleasant pastel orange for main interactive elements */
+    --accent-color: #FFB347;
+
+    /* A slightly darker orange for hover states */
+    --accent-color-darker: #FF9F1C;
+
+    /* White text provides good contrast on the accent color */
+    --accent-color-text: #FFFFFF;
+
+    /* Reset global text to a dark brown for readability in menus/sidebar */
+    --body-text-color: #5C4033;
+
+    /* Keep cards white for a clean, layered look */
+    --card-background: #FFFFFF;
+
+    /* Darker brown for main text on cards by default */
+    --card-text-color-main: #4A2C2A;
+
+    /* Lighter brown for secondary text on cards */
+    --card-text-color-secondary: #8A6653;
+
+    /* Global font size increase */
+    --article-font-size: 2.2rem;
+}
+
+body {
+    font-size: 2.0rem !important;
+    background-image: url('/img/mandala.svg');
+    background-repeat: no-repeat;
+    background-position: top -50px right -50px;
+    background-size: 600px;
+    background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: 300px;
+        background-position: top -30px right -30px;
+    }
+}
+
+.site-name {
+    font-size: 2.6rem !important;
+}
+
+.site-description {
+    font-size: 2.2rem !important;
+}
+
+#main-menu {
+    font-size: 2.2rem !important;
+}
+
+/* Content font size and Firebrick color only for main content */
+.main.full-width,
+.article-content {
+    font-size: 2.4rem !important;
+    line-height: 1.8 !important;
+    color: firebrick !important;
+}
+
+.main.full-width p,
+.main.full-width li,
+.main.full-width h1,
+.main.full-width h2,
+.main.full-width h3,
+.article-content p, 
+.article-content li, 
+.article-content h1, 
+.article-content h2, 
+.article-content h3, 
+.article-content h4, 
+.article-content h5, 
+.article-content h6 {
+    font-size: inherit !important;
+    color: firebrick !important;
+}
+
+/* Increase the size of the social media icons in the sidebar */
+.menu-social svg {
+    width: 48px;
+    height: 48px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: var(--accent-color-text);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.button:hover {
+    background-color: var(--accent-color-darker);
+}
+
+/* WhatsApp Floating Button Styling */
+.whatsapp-float {
+    transition: transform 0.3s ease !important;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.05) !important;
+}
+
+@media (max-width: 600px) {
+    .whatsapp-float span {
+        display: none !important; /* Keep only icon on very small mobile if needed, or keep text */
+    }
+    .whatsapp-float {
+        padding: 10px !important;
+        border-radius: 50px !important;
+    }
+}

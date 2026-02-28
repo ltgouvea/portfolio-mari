@@ -1,7 +1,7 @@
 baseURL = "https://maripsi.netlify.app/"
 languageCode = "pt-br"
 theme = "stack"
-title = "Mariana F. de Oliveira"
+title = "Mariana F. de Oliveira | CRP 06/145020"
 copyright = "ltgouvea"
 DefaultContentLanguage = "pt"
 hasCJKLanguage = false
@@ -28,7 +28,7 @@ favicon = "/favicon.ico"
   lastUpdated = "Jan 02, 2006 15:04 MST"
 
   [params.sidebar]
-  emoji = "🧠"
+  emoji = ""
   subtitle = "Psicóloga Clínica | Terapia Cognitivo-Comportamental"
     [params.sidebar.avatar]
     enabled = true
@@ -74,7 +74,7 @@ favicon = "/favicon.ico"
   [[menu.social]]
   identifier = "whatsapp"
   name = "WhatsApp"
-  url = "https://wa.me/5511999999999"
+  url = "https://wa.me/5514996079406"
   weight = 2
     [menu.social.params]
     icon = "whatsapp"
@@ -82,7 +82,7 @@ favicon = "/favicon.ico"
   [[menu.social]]
   identifier = "email"
   name = "Email"
-  url = "mailto:email@example.com"
+  url = "mailto:psimarianaf.oliveira@gmail.com"
   weight = 3
     [menu.social.params]
     icon = "mail"

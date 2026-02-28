@@ -2,7 +2,7 @@
 title: "Perguntas Frequentes"
 menu:
   main:
-    name: "FAQ"
+    name: "Perguntas Frequentes"
     weight: -80
     params:
         icon: search

@@ -13,7 +13,7 @@ tags:
 draft: false
 image: /uploads/wallhaven-v99zm3_1920x1080.png
 math: false
-hidden: false
+hidden: true
 comments: true
 ---
 Ele foi peida
